@@ -61,7 +61,11 @@ class model:
 
     def save_model(self):
 
+        self.model.save('model1.h5')
+
+    def load_model(self):
+
+        
 
     def predict(self):
 
-    
