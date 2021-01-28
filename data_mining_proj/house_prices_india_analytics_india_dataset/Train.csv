@@ -1,4 +1,4 @@
-POSTED_BY,UNDER_CONSTRUCTION,RERA,BHK_NO.,BHK_OR_RK,SQUARE_FT,READY_TO_MOVE,RESALE,ADDRESS,LONGITUDE,LATITUDE,TARGET(PRICE_IN_LACS)
+POSTED_BY,UNDER_CONSTRUCTION,RERA,BHK_NO,BHK_OR_RK,SQUARE_FT,READY_TO_MOVE,RESALE,ADDRESS,LONGITUDE,LATITUDE,TARGET(PRICE_IN_LACS)
 Owner,0,0,2,BHK,1300.236407,1,1,"Ksfc Layout,Bangalore",12.96991,77.59796,55
 Dealer,0,0,2,BHK,1275,1,1,"Vishweshwara Nagar,Mysore",12.274538,76.644605,51
 Owner,0,0,2,BHK,933.1597222,1,1,"Jigani,Bangalore",12.778033,77.632191,43
@@ -4936,14 +4936,14 @@ Dealer,0,0,3,BHK,1367.590532,1,1,"Porur,Chennai",13.03478,80.15586,67.6
 Dealer,1,0,2,BHK,969.8825932,0,1,"Akshaya Nagar,Bangalore",12.96991,77.59796,38
 Owner,0,0,3,BHK,1450.116009,1,1,"Tulasinagar Vijayawada,Vijayawada",16.512149,80.629903,50
 Owner,0,0,2,BHK,1251.172975,1,1,"Near Iskon City , NELLORE,Nellore",14.43333,79.96667,40
-Dealer,0,0,6,BHK,3499.981579,1,1,"Ghatkopar (East),Mumbai",19.078305,72.905931,950
+Dealer,0,0,,,3499.981579,1,1,"Ghatkopar (East),Mumbai",19.078305,72.905931,950
 Dealer,1,1,2,BHK,978.1864423,0,1,"Ghodbunder Road,Lalitpur",24.69028,78.41889,100
 Dealer,0,0,3,BHK,2200.220022,1,1,"Sector-115 Mohali,Mohali",30.712867,76.648557,60
-Dealer,0,0,2,BHK,1130.238219,1,1,"Thane West,Maharashtra",19.18,72.96333,130
-Builder,1,1,4,BHK,2391.304348,0,0,"ECR,Chennai",12.931889,80.252422,110
+Dealer,0,0,2,BHK,1130.238219,,1,"Thane West,Maharashtra",19.18,72.96333,130
+Builder,1,,4,BHK,2391.304348,0,0,"ECR,Chennai",12.931889,80.252422,110
 Dealer,0,0,3,BHK,1816.118048,1,1,"PAL,Surat",21.17,72.83,80
 Dealer,0,0,2,BHK,914.2857143,1,1,"Chandannagar,Kolkata",22.85625,88.21678,25.6
-Owner,0,0,3,BHK,1550.190597,1,1,"Milakpur Goojar,Bhiwadi",28.19491,76.826552,61
+Owner,0,0,3,,1550.190597,1,1,"Milakpur Goojar,Bhiwadi",28.19491,76.826552,61
 Dealer,0,1,2,BHK,1205.874427,1,1,"Ghodbunder Road,Maharashtra",18.96,72.82,89.5
 Dealer,0,0,3,BHK,1685.823755,1,1,"Vaishali Extension,Ghaziabad",28.651287,77.347732,110
 Dealer,0,0,2,BHK,1150.026137,1,1,"Ahinsa Khand 1,Ghaziabad",28.9196,76.8972,66
@@ -5043,7 +5043,7 @@ Dealer,0,0,1,BHK,450.0127845,1,1,"Malad (West),Mumbai",19.1849,72.8347,88
 Dealer,0,1,2,BHK,593.0232558,1,1,"Sector 88 Faridabad,Faridabad",28.431862,77.351104,25.5
 Dealer,0,1,3,BHK,2250.692521,1,1,"Sector-74A Mohali,Mohali",30.715271,76.681229,65
 Owner,0,0,2,BHK,1265.041654,1,1,"Harlur Road,Bangalore",12.904179,77.665897,82
-Owner,0,1,2,BHK,1260.02291,1,1,"Kharar,Chandigarh",30.74,76.65,22
+Owner,0,1,2,BHK,,1,1,"Kharar,Chandigarh",30.74,76.65,22
 Dealer,0,1,3,BHK,2295.492487,1,1,"Sector-121 Mohali,Mohali",30.696627,76.693764,110
 Dealer,0,1,3,BHK,1500.133941,1,1,"Sector 86 Faridabad,Faridabad",28.406388,77.342588,56
 Dealer,1,0,2,BHK,950,0,1,"Mohishila Colony,Asansol",23.65444,86.990713,19
@@ -8288,7 +8288,7 @@ Owner,0,0,2,BHK,920,1,1,"Electronics City Phase 1,Bangalore",12.840956,77.659441
 Owner,0,0,2,BHK,693.9854594,1,1,"Mohit Vihar,Dehradun",30.328262,78.009109,21
 Dealer,0,1,3,BHK,1605.605021,1,1,"Ghodbunder Road,Mumbai",28.743724,76.811315,110
 Dealer,0,0,2,BHK,1139.014684,1,1,"Roadpali,Lalitpur",24.69028,78.41889,83
-Dealer,0,,1,BHK,622.8956229,,1,"Virar West,Lalitpur",19.4559,72.8114,25.9
+Dealer,0,1,1,BHK,622.8956229,1,1,"Virar West,Lalitpur",19.4559,72.8114,25.9
 Dealer,0,0,3,BHK,1738.0509,1,1,"Kedari Nagar,Pune",18.484943,73.904242,140
 Dealer,0,0,3,BHK,1330.203443,1,1,"Sector-137 Noida,Noida",28.506454,77.409568,51
 Dealer,0,0,4,BHK,2800,1,1,"Vile Parle (East),Maharashtra",19.097244,72.846785,700
@@ -14973,7 +14973,7 @@ Owner,0,0,2,BHK,540,1,1,"Hinjewadi,Pune",18.5853,73.7413,27
 Dealer,0,1,3,BHK,1712.817585,1,1,"sector-121 Noida,Noida",28.602325,77.401994,120
 Owner,0,0,3,BHK,1961.1891,1,1,"Udayampalayam,Coimbatore",11.009305,76.996081,95
 Owner,0,0,2,BHK,968.6793671,1,1,"Mandi Sayeed Khan, Near Sanjay Place,Agra",27.18,78.02,30
-Owner,0,,1,BHK,450.0450045,,1,"CV Raman Nagar,Bangalore",12.98556,77.66389,35
+Owner,0,0,1,BHK,450.0450045,1,1,"CV Raman Nagar,Bangalore",12.98556,77.66389,35
 Owner,0,0,2,BHK,882.9300196,1,1,"Dabha,Nagpur",21.167876,79.006178,27
 Dealer,0,0,3,BHK,1725.412867,1,1,"Sector-84 Gurgaon,Gurgaon",28.408144,76.963756,70
 Dealer,0,0,2,BHK,918.0474698,1,1,"Periyapanicheri,Chennai",13.09,80.27,41
