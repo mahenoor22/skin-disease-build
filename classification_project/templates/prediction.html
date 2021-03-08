@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <link href="static/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <center>
+            <div class='cont'>
+            {% if (data[7]|int) ==0 %}
+            <h1>The skin disease diagonosed is Actinic keratoses</h1>
+            {% elif (data[7]|int) ==1 %}
+            <h1>The skin disease diagonosed is Basal cell carcinoma</h1>
+			{% elif (data[7]|int) ==2 %}
+            <h1>The skin disease diagonosed is Benign keratosis-like lesions</h1>
+			{% elif (data[7]|int) ==3 %}
+            <h1>The skin disease diagonosed is Dermatofibroma</h1>
+			{% elif (data[7]|int) ==4 %}
+            <h1>The skin disease diagonosed is Melanocytic nevi</h1>
+			{% elif (data[7]|int) ==5 %}
+            <h1>The skin disease diagonosed is Melanoma</h1>
+            {%else%}
+            <h1>The skin disease diagonosed is Vascular lesions</h1>
+            
+            {%endif%}
+
+        </div>
+		<img src="{{url_for('load_img')}}" alt='img'><br>
+            <a href="/" class='btn'>go back</a>
+            <h1>Analysis : <br> Actinic keratoses: <span>{{((data[0])*100)|int|abs}}%</span> 
+				   <br> Basal cell carcinoma: <span>{{((data[1])*100)|int|abs}}%</span>
+				   <br> Benign keratosis-like lesions: <span>{{((data[2])*100)|int|abs}}%</span>
+				   <br> Dermatofibroma: <span>{{((data[3])*100)|int|abs}}%</span>
+				   <br> Melanocytic nevi: <span>{{((data[4])*100)|int|abs}}%</span>
+				   <br> Melanoma: <span>{{((data[5])*100)|int|abs}}%</span>
+				   <br> Vascular lesions: <span>{{((data[6])*100)|int|abs}}%</span></h1>
+            
+            
+
+        </center>
+        
+    </body>
+</html>
