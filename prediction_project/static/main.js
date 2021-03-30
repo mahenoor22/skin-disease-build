@@ -4,12 +4,14 @@
 
 var fileDrag = document.getElementById("file-drag");
 var fileSelect = document.getElementById("file-upload");
+var cure = document.getElementById("cure");
 
 // Add event listeners
 fileDrag.addEventListener("dragover", fileDragHover, false);
 fileDrag.addEventListener("dragleave", fileDragHover, false);
 fileDrag.addEventListener("drop", fileSelectHandler, false);
 fileSelect.addEventListener("change", fileSelectHandler, false);
+
 
 function fileDragHover(e) {
   // prevent default behaviour
@@ -46,6 +48,7 @@ function submitImage() {
   // action for the submit button
   console.log("submit");
 
+  cure.style.display="none";
   if (!imageDisplay.src || !imageDisplay.src.startsWith("data")) {
     window.alert("Please select an image before submit.");
     return;
@@ -56,6 +59,7 @@ function submitImage() {
 
   // call the predict function of the backend
   predictImage(imageDisplay.src);
+  $("#Button2").show();
 }
 
 function clearImage() {
@@ -134,6 +138,9 @@ function displayResult(data) {
   hide(loader);
   predResult.innerHTML = data.result;
   show(predResult);
+ }
+
+function curebutton(){
 }
 
 function hide(el) {

@@ -57,7 +57,7 @@ def home():
 
 
 @app.route('/load_img')
-def load_img()
+def load_img():
     global COUNT
     return send_from_directory('static', "{}.jpg".format(COUNT-1))
 
