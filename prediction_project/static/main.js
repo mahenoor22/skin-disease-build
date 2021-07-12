@@ -4,7 +4,6 @@
 
 var fileDrag = document.getElementById("file-drag");
 var fileSelect = document.getElementById("file-upload");
-var cure = document.getElementById("cure");
 
 // Add event listeners
 fileDrag.addEventListener("dragover", fileDragHover, false);
@@ -48,7 +47,6 @@ function submitImage() {
   // action for the submit button
   console.log("submit");
 
-  cure.style.display="none";
   if (!imageDisplay.src || !imageDisplay.src.startsWith("data")) {
     window.alert("Please select an image before submit.");
     return;
@@ -59,7 +57,6 @@ function submitImage() {
 
   // call the predict function of the backend
   predictImage(imageDisplay.src);
-  $("#Button2").show();
 }
 
 function clearImage() {
